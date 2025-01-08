@@ -300,7 +300,7 @@ def handle_my_info_button(message):
 
 @bot.message_handler(func=lambda message: message.text == '💰 Buy Access!')
 def handle_buy_access_button(message):
-    response = (f"🔆 DESIHACK 𝐇𝐔𝐁 𝐃𝐃𝐎𝐒 𝐏𝐑𝐈𝐂𝐄 𝐋𝐈𝐒𝐓 🔆\n\n𝖣𝖠𝖸 - 150/-𝖨𝖭𝖱\n𝖶𝖤𝖤𝖪 - 600/-𝖨𝖭𝖱\n𝖬𝖮𝖭𝖳𝖧 - 1200/-𝖨𝖭𝖱\n\nDM TO BUY @LION_DEEPAK")
+    response = (f"🔆 DESIHACK 𝐇𝐔𝐁 𝐃𝐃𝐎𝐒 𝐏𝐑𝐈𝐂𝐄 𝐋𝐈𝐒𝐓 🔆\n\n𝖣𝖠𝖸 - 150/-𝖨𝖭𝖱\n𝖶𝖤𝖤𝖪 - 600/-𝖨𝖭𝖱\n𝖬𝖮𝖭𝖳𝖧 - 1200/-𝖨𝖭𝖱\n\nDM TO BUY @crossbeats7262")
     bot.send_message(message.chat.id, response)
 
 
